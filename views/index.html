@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block head %}
+  {% block headPage %}{% endblock %}
+{% endblock %}
+{% block body %}
+  <div class="page">
+    {% include 'components/header.html' %}
+    {% block main %}{% endblock %}
+    {% include 'components/footer.html' %}
+  </div>
+  {% block tailPage %}{% endblock %}
+{% endblock %}

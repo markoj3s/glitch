@@ -1,0 +1,14 @@
+{% import '../components/macros.html' as tools %}
+{% extends "base.html" %}
+{% block body %}
+  <header class="ns-home">
+    <h1>{{ shared.title }}</h1>
+    <img class="header-img" src="/assets/coffee-mug.png" width="60" heigh="60" />
+    <h2>Turning coffee into code for {{ _years }} years!</h2>
+    {% include '../components/breadcrumb.html' %}
+  </header>
+  <main class="ns-home">
+    {{ tools.blocks(page.blocks) }}
+  </main>
+  {% include 'components/footer.html' %}
+{% endblock %}

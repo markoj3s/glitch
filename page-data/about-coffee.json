@@ -1,0 +1,36 @@
+{
+  "title": "About Coffee",
+  "intro": [
+    "Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content. It is one of the most popular drinks in the world, and it can be prepared and presented in a variety of ways (e.g., espresso, French press, café latte). It is usually served hot, although iced coffee is a popular alternative. Clinical studies indicate that moderate coffee consumption is benign or mildly beneficial in healthy adults, with continuing research on whether long-term consumption lowers the risk of some diseases, although those long-term studies are of generally poor quality.",
+    "The earliest credible evidence of coffee-drinking appears in modern-day Yemen in southern Arabia in the middle of the 15th century in Sufi shrines. It was here in Arabia that coffee seeds were first roasted and brewed in a similar way to how it is now prepared. But the coffee seeds had to be first exported from East Africa to Yemen, as the Coffea arabica plant is thought to have been indigenous to the former. The Yemenis obtained their coffee via Somali traders from Berbera (who in turn procured the beans from the Ethiopian Highlands) and began to cultivate the seed. By the 16th century, the drink had reached Persia, Turkey, and North Africa. From there, it spread to Europe and the rest of the world.",
+    "As of 2016, Brazil was the leading grower of coffee beans, producing one-third of the world total. Coffee is a major export commodity, being the top legal agricultural export for numerous countries.[not in citation given] It is one of the most valuable commodities exported by developing countries. Green, unroasted coffee is one of the most traded agricultural commodities in the world. Some controversy has been associated with coffee cultivation and the way developed countries trade with developing nations, as well as the impact on the environment with regards to the clearing of land for coffee-growing and water use. Consequently, the markets for fair trade and organic coffee are expanding, notably in the USA."
+  ],
+  "blocks": [
+    {
+      "heading": "Etymology",
+      "body": [
+        "The word coffee appears to have derived from the name of the region where coffee beans were first used by a herder in the 6th or 9th century (depending on author): kaffa (from the Keffa Zone in southwestern Ethiopia) derived from Kaffa Province, which was the name of the region in ancient Abyssinia. The word \"coffee\" entered the English language in 1582 via the Dutch koffie, borrowed from the Ottoman Turkish kahve, borrowed in turn from the Arabic qahwah. The Arabic word qahwah was traditionally held to refer to a type of wine whose etymology is given by Arab lexicographers as deriving from the verb qahiya, \"to lack hunger\", in reference to the drink's reputation as an appetite suppressant. It has also been proposed that the source may be the Proto-Central Semitic root q-h-h meaning \"dark\".",
+        "The term \"coffee pot\" dates from 1705. The expression \"coffee break\" was first attested in 1952."
+      ]
+    },
+    {
+      "heading": "History",
+      "body": [
+        "According to legend, ancestors of today's Oromo people in a region of Kaffa in Ethiopia were believed to have been the first to recognize the energizing effect of the coffee plant. However, there is no direct evidence that has been found earlier than the 15th century indicating where in Africa coffee first grew or who among the native populations might have used it as a stimulant. The story of Kaldi, the 9th-century Ethiopian goatherd who discovered coffee when he noticed how excited his goats became after eating the beans from a coffee plant, did not appear in writing until 1671 and is probably apocryphal.",
+        "Other accounts attribute the discovery of coffee to Sheikh Omar. According to an ancient chronicle (preserved in the Abd-Al-Kadir manuscript), Omar, who was known for his ability to cure the sick through prayer, was once exiled from Mocha in Yemen to a desert cave near Ousab (modern-day Wusab, about 90 kilometres (56 mi) east of Zabid). Starving, Omar chewed berries from nearby shrubbery but found them to be bitter. He tried roasting the seeds to improve the flavor, but they became hard. He then tried boiling them to soften the seed, which resulted in a fragrant brown liquid. Upon drinking the liquid Omar was revitalized and sustained for days. As stories of this \"miracle drug\" reached Mocha, Omar was asked to return and was made a saint."
+      ]
+    },
+    {
+      "heading": "Biology",
+      "body": [
+        "Several species of shrub of the genus Coffea produce the berries from which coffee is extracted. The two main species commercially cultivated are Coffea canephora (predominantly a form known as 'robusta') and C. arabica. C. arabica, the most highly regarded species, is native to the southwestern highlands of Ethiopia and the Boma Plateau in southeastern Sudan and possibly Mount Marsabit in northern Kenya. C. canephora is native to western and central Subsaharan Africa, from Guinea to Uganda and southern Sudan. Less popular species are C. liberica, C. stenophylla, C. mauritiana, and C. racemosa.",
+        "All coffee plants are classified in the large family Rubiaceae. They are evergreen shrubs or trees that may grow 5 m (15 ft) tall when unpruned. The leaves are dark green and glossy, usually 10–15 cm (4–6 in) long and 6 cm (2.4 in) wide, simple, entire, and opposite. Petioles of opposite leaves fuse at the base to form interpetiolar stipules, characteristic of Rubiaceae. The flowers are axillary, and clusters of fragrant white flowers bloom simultaneously. Gynoecium consists of an inferior ovary, also characteristic of Rubiaceae. The flowers are followed by oval berries of about 1.5 cm (0.6 in). When immature they are green, and they ripen to yellow, then crimson, before turning black on drying. Each berry usually contains two seeds, but 5–10% of the berries have only one; these are called peaberries. Arabica berries ripen in six to eight months, while robusta takes nine to eleven months."
+      ]
+    },
+    {
+      "body": [
+        "<a href=\"https://en.wikipedia.org/wiki/Coffee\" target=\"_blank\">Read the full article here</a>"
+      ]
+    }
+  ]
+}

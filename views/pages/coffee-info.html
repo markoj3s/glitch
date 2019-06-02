@@ -1,0 +1,15 @@
+{% import '../components/macros.html' as tools %}
+{% extends "index.html" %}
+{% block main %}
+  <main class="ns-coffee-info">
+    <div class="visual-block">
+      <img class="visual-block-img-left" src="/assets/{{ page.slug }}.png" width="200" height="128" />
+      <div class="visual-block-body">
+        {% for paragraph in page.body %}
+          <p class="lead-paragraph">{{ paragraph | safe }}</p>
+        {% endfor %}
+        <p><a href="/coffee-types">See other types of coffee</a></p>
+      </div>
+    </div>
+  </main>
+{% endblock %}

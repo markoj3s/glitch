@@ -1,0 +1,13 @@
+<header>
+  <a href="/"><img class="header-img" src="/assets/coffee-mug.png" width="60" heigh="60" /></a>
+  <h1><a class="h1-link" href="/">{{ shared.title }}</a></h1>
+  {% include './breadcrumb.html' %}
+</header>
+<h2>{{ page.title }}</h2>
+{% if page.intro %}
+  <div class="intro">
+    {% for paragraph in page.intro %}
+      <p>{{ paragraph | safe }}</p>
+    {% endfor %}
+  </div>
+{% endif %}

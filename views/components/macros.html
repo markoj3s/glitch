@@ -1,0 +1,32 @@
+{% macro blocks(blocks) %}
+  <div class="blocks">
+    {% for block in blocks %}
+      <div class="block">
+        <div class="block-content">
+          {% if block.heading %}
+            <h3 class="block-heading">{{ block.heading }}</h3>
+          {% endif %}
+          {% if block.body %}
+            <div class="block-body">
+              <div class="{{ 'read-more-wrapper' if block.slug }}">
+                {% for paragraph in block.body %}
+                  <p class="block-paragraph">{{ paragraph | safe }}</p>
+                {% endfor %}
+                {% if block.slug %}
+                  <a class="read-more-link" href="/coffee-types/{{ block.slug }}">Read more</a>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endmacro %}
+
+{% macro conversionBlock(shared) %}
+  <div class="conversion-block">
+    <h3>Ready to drink some coffee?</h3>
+    <a class="conversion-button" href="{{ shared.email }}">Order a Coffee</a>
+  </div>
+{% endmacro %}

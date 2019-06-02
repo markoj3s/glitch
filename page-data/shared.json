@@ -1,0 +1,24 @@
+{
+  "title": "Coffee to Code",
+  "author": "Bob",
+  "email": "mailto:gimmecoffee@bobswebsites.com",
+  "breadcrumb": [
+    {
+      "text": "Home",
+      "url": "/",
+      "variation": "primary"
+    },
+    {
+      "text": "Why Coffee",
+      "url": "/why-coffee"
+    },
+    {
+      "text": "About Coffee",
+      "url": "/about-coffee"
+    },
+    {
+      "text": "Coffee Types",
+      "url": "/coffee-types"
+    }
+  ]
+}

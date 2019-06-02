@@ -1,0 +1,5 @@
+<p class="ns-breadcrumb">
+  {% for crumb in shared.breadcrumb %}
+    <a class="crumb{% if _url == crumb.url %} current{% endif %}{% if crumb.variation %} {{ crumb.variation }}{% endif %}" href="{{ crumb.url }}">{{ crumb.text }}</a>
+  {% endfor %}
+</p>

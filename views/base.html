@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee to Code</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Give me a coffee">
+    <link id="favicon" rel="icon" href="/assets/coffee-mug.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/client.js" defer></script>
+    {% block head %}{% endblock %}
+  </head>
+  <body class="grid-container">
+    {% block body %}{% endblock %}
+    {% block tail %}{% endblock %}
+  </body>
+</html>
