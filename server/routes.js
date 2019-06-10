@@ -19,38 +19,13 @@ module.exports = (app) => {
     res.render('pages/coffee-types.html', { shared: sharedData, page: coffeeTypesPageData });
   });
 
-  app.get('/coffee-types/:coffeeType', (req, res) => {
-    const { coffeeType } = req.params;
-
-    const coffeeInfo = findCoffeeInfoByCoffeeType(coffeeType);
-    if (!coffeeInfo) {
-      return renderNotFound(res);
-    }
-
-    res.render('pages/coffee-info.html', { shared: sharedData, page: { title: coffeeInfo.heading, ...coffeeInfo } });
-  });
-
   app.get('/why-coffee', (req, res) => {
     res.render('pages/standard-template.html', { shared: sharedData, page: whyCoffeeData });
   });
 
   app.get('/*', (req, res) => {
-    renderNotFound(res);
+    res.render('pages/error.html', { shared: sharedData });
   });
 
   return app;
-};
-
-// Find coffee info by coffee type from our virtual database
-const findCoffeeInfoByCoffeeType = (coffeeType) => {
-  for (let i = 0; i < coffeeTypesPageData.blocks.length; i++) {
-    if (coffeeType === coffeeTypesPageData.blocks[i].slug) {
-      return coffeeTypesPageData.blocks[i];
-    }
-  }
-};
-
-// Render Not Found error page
-const renderNotFound = (res) => {
-  res.render('pages/error.html', { shared: sharedData });
 };

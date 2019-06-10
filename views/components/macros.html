@@ -2,23 +2,14 @@
   <div class="blocks">
     {% for block in blocks %}
       <div class="block">
-        <div class="block-content">
-          {% if block.heading %}
-            <h3 class="block-heading">{{ block.heading }}</h3>
-          {% endif %}
-          {% if block.body %}
-            <div class="block-body">
-              <div class="{{ 'read-more-wrapper' if block.slug }}">
-                {% for paragraph in block.body %}
-                  <p class="block-paragraph">{{ paragraph | safe }}</p>
-                {% endfor %}
-                {% if block.slug %}
-                  <a class="read-more-link" href="/coffee-types/{{ block.slug }}">Read more</a>
-                {% endif %}
-              </div>
-            </div>
-          {% endif %}
-        </div>
+        {% if block.heading %}
+          <h3 class="block-heading">{{ block.heading }}</h3>
+        {% endif %}
+        {% if block.body %}
+          {% for paragraph in block.body %}
+            <p class="block-paragraph">{{ paragraph | safe }}</p>
+          {% endfor %}
+        {% endif %}
       </div>
     {% endfor %}
   </div>

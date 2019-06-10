@@ -2,53 +2,40 @@
   "title": "Types of Coffee",
   "blocks": [
     {
-      "heading": "Macchiato",
-      "body": [
-        "A macchiato is a shot of espresso which is then topped off with foamed milk dashed directly into the cup.  Although it may sound similar to a cappuccino, it’s usually stronger as there’s no steamed milk added and it’s also smaller, usually served in an expresso sized cup."
-      ],
-      "slug": "macchiato"
-    },
-    {
       "heading": "Latte",
       "body": [
         "A latte is a coffee drink made with espresso and steamed milk. The term as used in English is a shortened form of the Italian caffè latte, caffelatte or caffellatte, which means \"milk coffee\"."
-      ],
-      "slug": "latte"
+      ]
     },
     {
       "heading": "Café au lait",
       "body": [
         "Café au lait is coffee with hot milk added. It differs from white coffee, which is coffee with cold milk or other whitener added."
-      ],
-      "slug": "cafe-au-lait"
+      ]
     },
     {
       "heading": "Cappuccino",
       "body": [
         "A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, and flavoring with cinnamon or chocolate powder."
-      ],
-      "slug": "cappuccino"
+      ]
     },
     {
       "heading": "Espresso",
       "body": [
         "Espresso is coffee of Italian origin, brewed by expressing or forcing a small amount of nearly boiling water under pressure through finely ground coffee beans. Espresso is generally thicker than coffee brewed by other methods, has a higher concentration of suspended and dissolved solids, and has crema on top."
-      ],
-      "slug": "espresso"
+      ]
     },
     {
       "heading": "Flat white",
       "body": [
         "A flat white is a coffee drink consisting of espresso with microfoam. It is comparable to a latte, but smaller in volume and with less microfoam, therefore having a higher proportion of coffee to milk, ..."
-      ],
-      "slug": "flat-white"
+      ]
     },
     {
       "heading": "Long black",
       "body": [
         "A long black is a style of coffee commonly found in New Zealand and Australia. It is similar to an Americano, but with a stronger aroma and taste. A long black is made by pouring a double-shot of espresso or ristretto over hot water."
-      ],
-      "slug": "long-black"
+      ]
     }
   ]
 }

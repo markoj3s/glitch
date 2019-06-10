@@ -5,15 +5,9 @@ body {
   font-family: Fantasy;
   box-sizing: border-box;
 }
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 header {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 footer {
   margin-top: 2rem;
@@ -38,12 +32,6 @@ a {
 .ns-breadcrumb {
   display: inline-flex;
   margin-left: auto;
-}
-@media (max-width: 768px) {
-  .ns-breadcrumb {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
 }
 .ns-breadcrumb .crumb {
   margin: 0 1rem;
@@ -109,70 +97,15 @@ header.ns-home .crumb.current {
   margin: 0 -1rem;
 }
 .ns-coffee-types .block {
-  flex: 0 0 33.333%;
-  max-width: 33.333%;
-  padding: 0 1rem;
-  margin: 1rem 0;
-}
-@media (max-width: 768px) {
-  .ns-coffee-types .block {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-.ns-coffee-types .block-content {
-  /* switch to border to give a "flat" flavor */
-  /* box-shadow: 1px 1px 3px #aaa; */
-  border: 1px solid #ddd;
+  flex: 1 1 25%;
+  margin: 1rem;
+  box-shadow: 1px 1px 3px #aaa;
 }
 .ns-coffee-types .block-heading {
   margin: 0;
   padding: 1rem;
   background-color: #f4eeee;
 }
-.ns-coffee-types .block-body {
-  padding: 1rem;
-}
 .ns-coffee-types .block-paragraph {
-  margin: 0;
-}
-
-/* components */
-.visual-block {
-  display: flex;
-}
-.visual-block-body {
-  flex: 1;
-}
-.visual-block-img-left {
-  margin-right: 1rem;
-}
-@media (max-width: 768px) {
-  .visual-block-img-left {
-    display: none;
-  }
-}
-.read-more-wrapper {
-  position: relative;
-  line-height: 1.625rem;
-  max-height: 3.25rem;
-  overflow: hidden;
-}
-.read-more-wrapper .read-more-link {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 1) 10%);
-  padding: 0 1rem;
-}
-
-/* typography */
-.lead-paragraph {
-  font-size: 1.15rem;
-  margin-top: 0;
-}
-
-/* Grid */
-.grid-container {
   padding: 0 1rem;
 }
